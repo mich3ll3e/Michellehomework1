@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <!-- Start Page -->
+    <div class="container"></div>
+    <div class="scores"><a href="scoreboard.html">Score Board</a></div>
+    <div id="time"><br></div>
+    <div class="wrapper">
+        <h1>Coding Quiz Challenge</h1>
+           <p>Try to answer the following code-related questions within the time
+               limit. Keep in mind that incorrect answers will penalize your
+               score/time by <span class="ten">TEN</span> seconds!</p>
+       <button class="start-btn">Start Quiz</button>
+    </div>
+    <!-- Question Page -->
+    <div id="question-container" class="hide">
+    <div id= "question">Question</div>
+    <br>
+    <div id= "answer-btn">
+        <button class="button">Answer 1</button>
+        <button class="button">Answer 2</button>
+        <button class="button">Answer 3</button>
+        <button class="button">Answer 4</button>
+    </div>
+    </div>
+    <!-- Feedback -->
+    <div id="feedback" class="feedback hide"></div>
+   
+    <!-- End Screen -->
+    <div id="endgame" class="hide">
+        <h2>Well Done!</h2>
+        <p>Your Final Score is <span id="final-score"></span></p>
+        <p>Enter Initials: <br> <input type="text" id="initials" max="3">
+            <button id="submit">Submit</button>
+        </p>
+        
+    </div>
+    <script src="q.js"></script>
+</body>
+</html>

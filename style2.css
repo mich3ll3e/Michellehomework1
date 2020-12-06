@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.hide {
+    display: none;
+}
+.wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+.container {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+#time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+.scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+.question-container {
+    text-align: center;
+}
+#question {
+    font-size: 24px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+.start-btn {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 120%;
+    background-color: #563d7c;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+    margin-left:40%;
+  }
+.button {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 120%;
+    background-color: #563d7c;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+    display: block;
+    margin-left:25%;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    font-size: 25px;
+    text-align: center;
+}
+.ten {
+    font-weight: bold;
+}
+.feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: darkgrey;
+    border-top: 2px solid #ccc;
+  }
+  #submit {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #563d7c;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+    display: block;
+    margin-left:46%;
+  }
+  h2 {
+      text-align: center;
+      font-size: 30px;
+  }
+  .scorebutton {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 120%;
+    background-color: #563d7c;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+}
+.scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  li {
+    background-color: #f3edfc;
+  }
+  
+  
